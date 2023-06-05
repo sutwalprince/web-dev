@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+.generate_voices{
+    display: inline;
+}
+#change_voices {
+    display: inline;
+}
+
+.btn {
+    display: inline;
+
+}
+
+/* .col {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+i {
+    font-size:40px;
+}
+
+
+.text-area {
+    padding: 5px;;
+    margin: 10px 0;
+    text-align: left;
+    height: 30vh;
+    width: 95%;
+    border: none;
+    outline: none;
+    overflow: auto;
+}
+
+.container {
+
+    border: 1px solid black;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+}
+
+.buttons {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    top: 0;
+
+}
+
+/* .row{
+    display: flex;
+    margin-top: 10px;
+} */
+
+
+#pitchBar {
+    position: relative;
+    /* display: inline-block; */
+}
+
+.toolt{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    /* left: 50%; */
+    margin-left: -100px;
+}
+
+#pitchBar:hover + .toolt{
+    visibility: visible;
+}#rateBar:hover + .toolt{
+    visibility: visible;
+}#volumeBar:hover + .toolt{
+    visibility: visible;
+}
