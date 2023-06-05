@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e749318bcb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Camera</title>
+</head>
+
+<body>
+    <div class="video-container">
+        <video autoplay></video>
+    </div>
+    <div class="video-filters">
+        <div class="filter" ></div>
+        <div class="filter" style="background-color: rgba(255,255,0,0.2);"></div>
+        <div class="filter" style="background-color: rgba(176, 23, 46, 0.2);"></div>
+        <div class="filter" style="background-color: rgba(214, 126, 25, 0.2);"></div>
+        <div class="filter" style="background-color: rgba(54, 26, 167, 0.2);"></div>
+        <div class="filter" style="background-color: rgba(206, 222, 23, 0.2);"></div>
+        
+    </div>
+
+
+
+    <div class="controls">
+        <div class="zoom">
+            <div class="zoomin"><i class="fa-solid fa-plus"></i></div>
+            <div class="zoomout"><i class="fa-solid fa-minus"></i></div>
+        </div>
+
+        <div id="record">
+            <div class="inner-record"></div>
+        </div>
+
+        <div id="capture">
+            <div class="inner-capture"></div>
+        </div>
+
+        <div class="galary-btn" >Galary</div>
+
+    </div>
+    <script src="db.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
