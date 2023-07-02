@@ -27,7 +27,7 @@ const GithubSearch = () => {
           <div className="column">
             <p className="display-3">Github Profile Search</p>
             <p className="lead font-weight-bold">
-              Search a github profile to see his/her activities
+              Search a github profile to see his/her activities 
             </p>
           </div>
         </div>
